@@ -1,0 +1,9 @@
+Distributed Systems Fundamentals
+
+Distributed systems coordinate multiple independent computers to appear as a single coherent system. Consensus algorithms such as Raft and Paxos ensure agreement on shared state despite failures. Leader election, log replication, and safety properties are central to correctness.
+
+Fault tolerance relies on replication and redundancy. Quorum-based reads and writes balance consistency and availability. Partition tolerance requires careful trade-offs described by the CAP theorem: consistency, availability, and partition tolerance cannot all be maximized simultaneously.
+
+Message passing, idempotency, and exactly-once semantics are critical for reliable communication. Network partitions, clock skew, and partial failures make distributed debugging challenging. Observability via tracing and metrics is essential for production systems.
+
+Scaling strategies include horizontal sharding, consistent hashing, and load balancing. Data locality and cache coherence affect latency. Backpressure and circuit breakers prevent cascading failures under load.

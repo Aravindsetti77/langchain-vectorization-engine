@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+pydantic-settings
+langchain-core
+langchain-text-splitters
+langchain-chroma
+langchain-huggingface
+langchain-ollama
+sentence-transformers
+rank-bm25
+pypdf
+pytest
