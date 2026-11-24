@@ -59,8 +59,8 @@ docker compose up --build
 ## Evaluation
 
 ```bash
-pytest -W error::DeprecationWarning
-python eval/eval_retrieval.py
+pytest -v -W default -W error::DeprecationWarning:app -W error::DeprecationWarning:tests
+python -m eval.eval_retrieval
 ```
 
 | Recall@3 | MRR | p95 Latency (ms) |
